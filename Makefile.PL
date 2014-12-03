@@ -22,7 +22,7 @@ my %WriteMakefileArgs = (
   "LICENSE" => "restrictive",
   "NAME" => "App::EC2::API::Tools",
   "PREREQ_PM" => {},
-  "VERSION" => "0.1",
+  "VERSION" => "0.2",
   "test" => {
     "TESTS" => ""
   }

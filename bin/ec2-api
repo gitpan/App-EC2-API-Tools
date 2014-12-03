@@ -20,7 +20,7 @@ find_script() {
 
 if [ "$action" = "help" ]; then
     if [ "$script" = "" ]; then
-        perldoc App::EC2;
+        perldoc App::EC2::API::Tools;
         exit 1;
     fi
 
@@ -106,5 +106,5 @@ if [ "$action" = "setup" ]; then
 fi
 
 echo "$0 [exec|setup|install|upgrade|help] [ec2-app]";
-echo "version:" $(perl -MApp::EC2 -e 'print $App::EC2::VERSION')
+echo "version:" $(perl -e 'eval {use App::EC2::API::Tools}; print $App::EC2::API::Tools::VERSION')
 exit 1;

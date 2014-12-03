@@ -1,5 +1,5 @@
 package App::EC2::API::Tools;
-$App::EC2::API::Tools::VERSION = '0.1';
+$App::EC2::API::Tools::VERSION = '0.2';
 =head1 NAME
 
 App::EC2::API::Tools - ec2-api api tool wrapper scirpt
